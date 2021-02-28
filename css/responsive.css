@@ -311,7 +311,7 @@ padding: 1px 0px 1px 0px;
     #main_slider .carousel-control-prev,
     #main_slider .carousel-control-next {
         width: 40px;
-        height: 40px;
+        height: 40px;     
     }
     .relative {
         position: absolute;
@@ -335,6 +335,7 @@ padding: 1px 0px 1px 0px;
     .carousel-item img {
         width: 100%;
         height: 250px;
+        object-fit: cover;
     }
    
     .mean-container .mean-bar {
